@@ -1,0 +1,72 @@
+h1 {
+    margin: 20px 5px 40px 5px;
+}
+
+input,
+select {
+    margin: 2px;
+    height: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+.notes {
+    width: 400px;
+    height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.heli-number {
+    width: 100px !important;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+}
+
+.heli-number::placeholder {
+    font-size: 13px;
+    text-align: center;
+    color: #999;
+    vertical-align: middle;
+}
+
+#add_missile_btn {
+    width: 10em;
+    margin: 10px 0;
+}
+
+.item-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+
+.remove-btn {
+    font-weight: bold;
+}
+
+.share-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.share-button {
+    padding: 10px;
+    cursor: pointer;
+}

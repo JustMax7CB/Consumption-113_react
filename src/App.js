@@ -18,6 +18,9 @@ import fetchData from "./scripts/fetchData";
 
 function App() {
   const reset = () => {
+    const heliNumber = document.querySelector(".heli-number");
+    heliNumber.value = "";
+
     const RowsToDelete = document.querySelectorAll(".item-row");
     RowsToDelete.forEach((row) => row.remove());
 

@@ -2,9 +2,9 @@ const ShareButton = ({ text, imgPath, platform, fetchMessage }) => {
   const shareMessage = () => {
     const message = encodeURIComponent(fetchMessage());
     if (platform === "whatsapp") {
-      window.open(`whatsapp://send?text=${message}`);
+      window.open(`https://wa.me/?text=${message}`, "_blank");
     } else {
-      window.open(`tg://msg?text=${message}`);
+      window.open(`https://t.me/share/url?url=${message}`, "_blank");
     }
   };
 

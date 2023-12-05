@@ -53,7 +53,7 @@ function App() {
         />
         <ShareButton
           text="שיתוף ל Telegram"
-          imgPath="./assets/telegram-logo.png"
+          imgPath="./assets/whatsapp-logo.png"
           platform="telegram"
           fetchMessage={fetchData}
         />

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Consumption-113_react/static/css/main.e66e8238.css",
-    "main.js": "/Consumption-113_react/static/js/main.476b5a33.js",
+    "main.js": "/Consumption-113_react/static/js/main.033547ad.js",
     "static/media/SecularOne-Regular.ttf": "/Consumption-113_react/static/media/SecularOne-Regular.f9a0f58cdc9d6e2de7f1.ttf",
     "index.html": "/Consumption-113_react/index.html",
     "main.e66e8238.css.map": "/Consumption-113_react/static/css/main.e66e8238.css.map",
-    "main.476b5a33.js.map": "/Consumption-113_react/static/js/main.476b5a33.js.map"
+    "main.033547ad.js.map": "/Consumption-113_react/static/js/main.033547ad.js.map"
   },
   "entrypoints": [
     "static/css/main.e66e8238.css",
-    "static/js/main.476b5a33.js"
+    "static/js/main.033547ad.js"
   ]
 }
